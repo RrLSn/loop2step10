@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f5f7f9;
+}
+
+nav{
+    width: 100%;
+    height: 5rem;
+    border-bottom: 0.1rem solid #e5e0e0;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: 19.7rem 14rem 1fr 14rem 19.7rem;
+}
+
+.in{
+    height: 100%;
+    border-right: 0.1rem solid #e5e0e0;
+    /* padding-top: 2rem;
+    padding-left: 15rem; */
+}
+
+.in img{
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 0.7rem;
+    margin-left: 15rem;
+}
+
+.search{
+    height: 100%;
+    border-right: 0.1rem solid #e5e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search input{
+    height: 2rem;
+    width: 80%;
+    border-radius: 15px;
+    border: 0.1rem solid #e5e0e0;
+}
+
+.search ::placeholder{
+    padding-left: 1rem;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.nav-info{
+    height: 100%;
+    border-right: 0.1rem solid #e5e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0 2rem;
+}
+
+.nav-info a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: #656464;
+}
+
+/* .nav-info a:hover{
+    transition: ease-in-out;
+} */
+
+#red{
+    color: #ff7b73;
+}
+
+.icon{
+    height: 100%;
+    border-right: 0.1rem solid #e5e0e0;
+    display: flex;
+    align-items: center;
+    padding: 0 1.5rem;
+    gap: 3rem;
+}
+
+.icon img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.nav_mg{
+    height: 100%;
+    border-right: 0.1rem solid #e5e0e0;
+}
+
+.nav_mg img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0.7rem 1rem;
+}
+
+.sub{
+    width: 100%;
+    height: 3rem;
+    background-color: #ffffff;
+}
+
+.sub_info{
+    width: 31%;
+    height: 100%;
+    margin-left: 15rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sub_info a{
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: #979494;
+}
+
+.sub_info div{
+    padding-top: 0.5rem;
+    height: 90%;
+}
+
+
+.sub_info div:hover{
+    border-bottom: 0.2rem solid green;
+}
+
+
