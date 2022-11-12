@@ -85,6 +85,10 @@ nav{
     gap: 3rem;
 }
 
+.icon a{
+    cursor: pointer;
+}
+
 .icon img{
     width: 1.5rem;
     height: 1.5rem;
@@ -142,7 +146,7 @@ nav{
 }
 
 .profile{
-    height: 50%;
+    height: 43%;
     background-color: #ffffff;
 }
 
@@ -189,6 +193,7 @@ nav{
     justify-content: center;
     align-items: center;
     background-color: #5eb5e6;
+    cursor: pointer;
 }
 
 .connect{
@@ -200,6 +205,7 @@ nav{
     justify-content: center;
     align-items: center;
     border: 0.1rem solid #5eb5e6;
+    cursor: pointer;
 }
 
 .follow a{
@@ -212,3 +218,56 @@ nav{
     color: #5eb5e6;
 }
 
+.p_info{
+    width: 100%;
+    height: 7rem;
+    margin-top: 2rem;
+    border-top: 0.1rem solid #e5e0e0;
+    border-bottom: 0.1rem solid #e5e0e0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.p_info div{
+    text-align: center;
+}
+
+.p_info p{
+    color: #979494;
+}
+
+.line{
+    width: 0.2%;
+    height: 7rem;
+    background-color: #a9a4a4;
+}
+
+.link{
+    width: 100%;
+    height: 5rem;
+    font-size: 1.2rem;
+    line-height: 1.9rem;
+    padding: 1.4rem 4rem;
+}
+
+
+.link a{
+    text-decoration: none;
+    color:  #a9a4a4;
+}
+
+.export{
+    width: 100%;
+    height: 6rem;
+    margin-top: 2rem;
+    border-top: 0.1rem solid #e5e0e0;
+    font-size: 1.2rem;
+    padding: 2rem 2em;
+}
+
+.export a{
+    text-decoration: none;
+    color: #a9a4a4;
+}
