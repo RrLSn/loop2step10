@@ -132,7 +132,7 @@ nav{
 }
 
 .sub_info div:hover{
-    border-bottom: 0.2rem solid green;
+    border-bottom: 0.2rem solid #50afe7;
 }
 
 .wrapper{
@@ -195,6 +195,10 @@ nav{
     cursor: pointer;
 }
 
+.follow:hover{
+    background-color: #4e9ce3;
+}
+
 .connect{
     width: 80%;
     height: 2.4rem;
@@ -205,6 +209,10 @@ nav{
     align-items: center;
     border: 0.1rem solid #5eb5e6;
     cursor: pointer;
+}
+
+.connect:hover{
+    background-color: #edf6fd;
 }
 
 .follow a{
@@ -255,6 +263,10 @@ nav{
 .link a{
     text-decoration: none;
     color:  #a9a4a4;
+}
+
+.link a:hover{
+    border-bottom: 0.1rem solid;
 }
 
 .export{
@@ -366,6 +378,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.next div{
+    background-color: #f4f4f4;
 }
 
 .link_p{
@@ -497,6 +514,11 @@ nav{
     text-decoration: none;
     color: #78baf2;
     font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.ex_info a:hover{
+    border-bottom: 0.1rem solid #78baf2;
 }
 
 .az{
@@ -640,6 +662,11 @@ nav{
     display: flex;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
+}
+
+.r_inform div:hover{
+    background-color: #f4f4f4;
 }
 
 .r_word{
@@ -750,6 +777,10 @@ nav{
     cursor: pointer;
 }
 
+.ff a:hover{
+    border-bottom: 0.1rem solid #5eb5e6;
+}
+
 .ft{
     width: 12rem;
     height: 4em;
@@ -777,9 +808,31 @@ nav{
     cursor: pointer;
 }
 
-.see h3{
-    font-weight: 400;
+.see{
+    width: 21%;
+    height: 3rem;
+    border-radius: 18px;
+    margin: 1rem 1.5rem 0 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid #5eb5e6;
+    cursor: pointer;
 }
+
+.see:hover{
+    background-color: #edf6fd;
+}
+
+.see a{
+    text-decoration: none;
+    color: #5eb5e6;
+    font-size: 1.3rem;
+}
+
+/* .see h3{
+    font-weight: 400;
+} */
 
 footer{
     width: 100%;
