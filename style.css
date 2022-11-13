@@ -136,7 +136,7 @@ nav{
 
 .wrapper{
     width: 86%;
-    height: 100rem;
+    height: 150rem;
     margin: 2rem 15rem;
     display: grid;
     grid-template-columns: 15rem 1fr 25rem;
@@ -406,7 +406,7 @@ nav{
 
 .background{
     width: 100%;
-    height: 80rem;
+    height: 79rem;
     margin-top: 2rem;
     background-color: #ffffff;
 }
@@ -425,6 +425,10 @@ nav{
     font-size: 1.2rem;
 }
 
+.b_info h3{
+    font-weight: 500;
+}
+
 .b_info div{
     display: flex;
     gap: 1rem;
@@ -437,6 +441,10 @@ nav{
     height: 16rem;
     margin: 2rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.b_inform h3{
+    font-weight: 500;
 }
 
 .ex{
@@ -475,6 +483,10 @@ nav{
     margin-top: 0.5rem;
 }
 
+.ex_img h5{
+    font-weight: 400;
+}
+
 .ex_img img{
     width: 10rem;
     height: 3rem;
@@ -493,4 +505,106 @@ nav{
 
 .ex_info p{
     color: #babec1;
+}
+
+.skills{
+    width: 92%;
+    height: 14rem;
+    margin: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.skills h3{
+    font-weight: 500;
+}
+
+.ski{
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.s_info{
+    width: 90%;
+    height: 4rem;
+    margin: 1rem 3rem;
+    display: grid;
+    grid-template-columns: 5rem 1fr 15rem;
+}
+
+.s_info h2{
+    padding-top: 0.8rem;
+    font-weight: 400;
+}
+
+.num{
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 0.1rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_inform{
+    display: flex;
+}
+
+.num2{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #e5e0e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.s_inform img{
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 0 0.5rem;
+}
+
+.int{
+    font-size: 1.7rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+.interest{
+    width: 92%;
+    height: 10rem;
+    margin: -2rem 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.int img{
+    width: 2rem;
+    height: 2rem;
+} 
+
+.int h3{
+    font-weight: 500;
+}
+
+.ints{
+    width: 90%;
+    height: 5rem;
+    margin-left: 3rem;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.tool{
+    width: 8rem;
+    height: 2rem;
+    background-color: #f1f1f1;
+    padding-top: 0.4rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
