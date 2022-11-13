@@ -45,6 +45,11 @@ nav{
     border: 0.1rem solid #e5e0e0;
 }
 
+.search input:focus{
+    outline: none;
+    padding-left: 1rem;
+}
+
 .search ::placeholder{
     padding-left: 1rem;
     font-size: 1rem;
@@ -67,9 +72,10 @@ nav{
     color: #656464;
 }
 
-/* .nav-info a:hover{
-    transition: ease-in-out;
-} */
+.nav-info a:hover{
+    margin-bottom: 1rem;
+    transition: all 0.5s linear;
+}
 
 #red{
     color: #ff7b73;
@@ -86,6 +92,11 @@ nav{
 
 .icon a{
     cursor: pointer;
+}
+
+.icon a:hover{
+    margin-bottom: 1rem;
+    transition: all 0.5s linear;
 }
 
 .icon img{
