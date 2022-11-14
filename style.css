@@ -472,7 +472,20 @@ nav{
     width: 92%;
     height: 16rem;
     margin: 2rem;
+    margin-bottom: 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.edu{
+    width: 92%;
+    height: 16rem;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.edu h3{
+    font-weight: 500;
 }
 
 .b_inform h3{
@@ -485,6 +498,15 @@ nav{
     gap: 1rem;
     margin-bottom: 1rem;
 }
+.edu_info{
+    display: flex;
+    gap: 1rem;
+}
+
+.educate{
+    width: 100%;
+    height: 30%;
+}
 
 .ex_{
     display: flex;
@@ -492,6 +514,7 @@ nav{
 }
 .ex_info{
     width: 100%;
+    height: 30%;
 }
 
 .ball{
@@ -517,12 +540,26 @@ nav{
 
 .ex_img h5{
     font-weight: 400;
+    width: 40%;
+}
+
+.ed h5{
+    font-weight: 400;
+    width: 40%;
+    font-size: 1.7rem;
 }
 
 .ex_img img{
     width: 10rem;
     height: 3rem;
-    margin-top: -1rem;
+}
+
+.educate a{
+    text-decoration: none;
+    color: #78baf2;
+    font-size: 1.4rem;
+    cursor: pointer;
+    width: 20%;
 }
 
 .ex_info a{
@@ -530,14 +567,28 @@ nav{
     color: #78baf2;
     font-size: 1.4rem;
     cursor: pointer;
+    width: 20%;
 }
 
 .ex_info a:hover{
     border-bottom: 0.1rem solid #78baf2;
 }
 
+.educate a:hover{
+    border-bottom: 0.1rem solid #78baf2;
+}
+
 .az{
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+
+.ed{
+    margin-bottom: 1rem;
+
+}
+
+.ed p{
+    color: #babec1;
 }
 
 .ex_info p{
