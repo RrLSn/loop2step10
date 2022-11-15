@@ -975,4 +975,88 @@ footer{
     .b_div{
         font-size: 1.5rem;
     }
+
+    .b_info{
+        font-size: 1.8rem;
+        width: 92%;
+    }
+
+    .b_info div{
+        font-size: 1.8rem;
+    }
+
+    .ex{
+        font-size: 1.9rem;
+    }
+
+    .ex_info a{
+        font-size: 1.8rem;
+    }
+
+    .edu{
+        margin-bottom: 4rem;
+    }
+
+    .edu_info{
+        font-size: 1.8rem;
+    }
+
+    .b_inform{
+        margin-bottom: 4rem;
+    }
+
+    .ed h5{
+        font-size: 1.8rem;
+    }
+
+    .background{
+        height: 81rem;
+    }
+
+    .r_info h2{
+        font-size: 1.8rem;
+    }
+
+    .r_inform div{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .r_word div{
+        font-size: 1.7rem;
+    }
+
+    .r_name{
+        width: 100%;
+        gap: 15rem;
+    }
+
+    .r_names{
+        font-size: 1.3rem;
+    }
+
+    .f_name{
+        font-size: 1.5rem;
+    }
+
+    .fimage{
+        padding-left: 13rem;
+        gap: 2rem;
+    }
+
+    .f_info{
+        padding-left: 13rem;
+        gap: 2rem;
+        font-size: 1.5rem;
+    }
+
+    .ff a{
+        font-size: 1.7rem;
+    }
+
+    .see{
+        width: 17%;
+        margin: auto;
+        margin-top: -2rem;
+    }
 }
