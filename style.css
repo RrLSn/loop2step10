@@ -1059,4 +1059,39 @@ footer{
         margin: auto;
         margin-top: -2rem;
     }
+
+    .people{
+        padding-left: 35rem;
+        font-size: 1.7rem;
+    }
+
+    .people h1{
+        font-size: 2.5rem;
+    }
+
+    .most{
+        margin-left: -6rem;
+    }
+
+    .hosts img{
+        width: 19rem;
+        height: 19rem;
+    }
+
+    .left{
+        margin: 9rem 2rem;
+    }
+
+    .infl{
+        margin-left: -4rem;
+        font-size: 2rem;
+    }
+
+    .infl h2{
+        font-size: 3rem;
+    }
+
+    footer{
+        font-size: 2rem;
+    }
 }
