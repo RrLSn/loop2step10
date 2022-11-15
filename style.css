@@ -920,7 +920,7 @@ footer{
     }
 
     .connect, .follow{
-        width: 20%;
+        width: 15%;
         font-size: 1.7rem;
         margin: 1.3rem auto;
     }
@@ -943,10 +943,36 @@ footer{
     }
 
     .link{
-        font-size: 1.8git rem;
+        font-size: 1.8rem;
         text-align: center;
         display: flex;
         flex-direction: column;
         line-height: 2.5rem;
+    }
+
+    .link_p{
+        margin-left: 11rem;
+    }
+
+    .article img{
+        width: 20rem;
+        height: 16rem;
+    }
+
+    .article h3{
+        font-size: 1.5rem;
+    }
+
+    .post_info h2{
+        font-size: 2.5rem;
+    }
+
+    .next div{
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .b_div{
+        font-size: 1.5rem;
     }
 }
