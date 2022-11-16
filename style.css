@@ -15,7 +15,7 @@ nav{
     border-bottom: 0.1rem solid #e5e0e0;
     background-color: #ffffff;
     display: grid;
-    grid-template-columns: 19.7rem 14rem 1fr 14rem 19.7rem;
+    grid-template-columns: 19.7rem 14rem 1fr 14rem 10rem 10rem;
 }
 
 .in{
@@ -105,7 +105,14 @@ nav{
 
 .nav_mg{
     height: 100%;
-    border-right: 0.1rem solid #e5e0e0;
+    display: flex;
+}
+
+aside{
+    height: 100%;
+    text-align: center;
+    font-size: 3rem;
+    /* display: none; */
 }
 
 .nav_mg img{
@@ -928,7 +935,7 @@ footer{
     nav{
         height: 7rem;
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 0 10rem;
     }
 
     .in{
@@ -940,9 +947,8 @@ footer{
         height: 4.5rem;
     }
 
-    .nav_mg{
+    .nav_mg img{
         display: none;
-        margin: 0;
     }
 
     .icon{
@@ -1134,5 +1140,10 @@ footer{
 
     footer{
         font-size: 2rem;
+    }
+
+    aside{
+        font-size: 6rem;
+        margin-top: -2rem;
     }
 }
