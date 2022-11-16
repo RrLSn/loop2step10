@@ -26,8 +26,7 @@ nav{
 .in img{
     width: 2.5rem;
     height: 2.5rem;
-    margin-top: 0.7rem;
-    margin-left: 15rem;
+    margin: 0.7rem 15rem;
 }
 
 .search{
@@ -912,6 +911,48 @@ footer{
 
     body{
         width: 100rem;
+    }
+
+    .nav-info{
+        display: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    .search{
+        display: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    nav{
+        height: 7rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .in{
+        border: none;
+    }
+
+    .in img{
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .nav_mg{
+        display: none;
+        margin: 0;
+    }
+
+    .icon{
+        border: none;
+        gap: 4rem;
+    }
+
+    .icon img{
+        width: 4rem;
+        height: 4rem;
     }
 
     .wrapper{
